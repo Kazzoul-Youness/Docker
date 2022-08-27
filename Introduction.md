@@ -32,7 +32,12 @@ docker run -tid -p 8080:80 --name web nginx:latest
 
 
 
+#Les options : 
+--------------------------------------
 
+    -t : Allouer un pseudo TTY (terminal virtuel)
+    -i : Garder un STDIN ouvert (l'entrée standard plus précisément l'entrée clavier)
+    -d : Exécuter le conteneur en arrière-plan et afficher l'ID du conteneur
 
 
 
